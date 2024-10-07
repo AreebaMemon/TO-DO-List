@@ -7,7 +7,7 @@ function addSomething() {
   const textValue = add.value.trim();
 
   if (textValue === "") {
-    alert("Please Enter Something");
+    alert("Task cannot be empty");
     return;
   }
 
